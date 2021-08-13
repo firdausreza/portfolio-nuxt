@@ -4,7 +4,7 @@
       <h1 class="text-5xl font-bold">
         Reza Firdaus
       </h1>
-      <div class="flex sm:flex-col md:flex-row justify-center items-center mt-4">
+      <div class="flex sm:flex-col md:flex-row justify-center items-center mt-8">
         <nuxt-link to="#">
           About
         </nuxt-link>
