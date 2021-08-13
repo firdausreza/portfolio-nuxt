@@ -1,10 +1,16 @@
 <template>
-  <div class="flex flex-row justify-center items-center mx-auto px-16 bg-dlblue">
+  <div class="flex sm:flex-col md:flex-row justify-center items-center mx-auto px-16 bg-dlblue">
     <div class="w-1/2 wrapper flex flex-col justify-start mx-8">
       <div class="icon-wrapper flex flex-row">
-        <nuxt-link to="github.com/firdausreza">
-          <font-awesome-icon :icon="['fab', 'github']" style="font-size: 64px" />
-        </nuxt-link>
+        <a href="https://github.com/firdausreza" target="_blank">
+          <font-awesome-icon :icon="['fab', 'github']" style="font-size: 48px" />
+        </a>
+        <a href="https://www.linkedin.com/in/rezafirdaus080/" target="_blank" class="ml-8">
+          <font-awesome-icon :icon="['fab', 'linkedin']" style="font-size: 48px" />
+        </a>
+        <a href="https://www.instagram.com/mhmmdrezalif/" target="_blank" class="ml-8">
+          <font-awesome-icon :icon="['fab', 'instagram']" style="font-size: 48px" />
+        </a>
       </div>
       <h1 class="text-5xl font-bold mt-8">
         Hi! I'm Reza Firdaus
