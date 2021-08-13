@@ -1,5 +1,5 @@
 <template>
-  <div class="flex sm:flex-col md:flex-row justify-center items-center mx-auto px-16 bg-dlblue">
+  <div class="flex sm:flex-col md:flex-row justify-center items-center mx-auto px-16 pt-8 bg-dlblue">
     <div class="w-1/2 wrapper flex flex-col justify-start mx-8">
       <div class="icon-wrapper flex flex-row">
         <a href="https://github.com/firdausreza" target="_blank">
