@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full flex flex-col items-center mx-auto py-16 bg-dlblue">
+  <div class="w-full flex flex-col items-center mx-auto py-16 rounded-xl bg-dlblue">
     <div class="heading-wrapper flex flex-col justify-center items-center">
       <h1 class="text-5xl font-bold">
         My Skills

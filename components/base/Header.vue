@@ -5,21 +5,21 @@
         Reza Firdaus
       </h1>
       <div class="flex sm:flex-col md:flex-row justify-center items-center mt-8">
-        <nuxt-link to="#">
+        <a href="#" class="hover:text-lred">
           About
-        </nuxt-link>
-        <nuxt-link to="#" class="ml-8">
+        </a>
+        <a href="#" class="ml-8 hover:text-lred">
           Skills
-        </nuxt-link>
-        <nuxt-link to="#" class="ml-8">
+        </a>
+        <a href="#" class="ml-8 hover:text-lred">
           Tools
-        </nuxt-link>
-        <nuxt-link to="#" class="ml-8">
+        </a>
+        <a href="#" class="ml-8 hover:text-lred">
           Projects
-        </nuxt-link>
-        <nuxt-link to="#" class="ml-8">
+        </a>
+        <a href="#" class="ml-8 hover:text-lred">
           Contact
-        </nuxt-link>
+        </a>
       </div>
     </nav>
   </div>

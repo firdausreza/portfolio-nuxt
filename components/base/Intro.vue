@@ -1,5 +1,5 @@
 <template>
-  <div class="flex sm:flex-col md:flex-row justify-center items-center mx-auto px-16 pt-8 bg-dlblue">
+  <div class="flex w-full h-full sm:flex-col md:flex-row justify-center items-center mx-auto px-16 pt-8 rounded-xl bg-dlblue">
     <div class="w-1/2 wrapper flex flex-col justify-start mx-8">
       <div class="icon-wrapper flex flex-row">
         <a href="https://github.com/firdausreza" target="_blank">
@@ -19,7 +19,7 @@
         I'm highly interested in Front-end Web Development, but also experienced in Back-end Development and Game Development
       </p>
     </div>
-    <img class="mx-8 w-2/5" src="~/assets/image/reza-portfolio.png" alt="Gambar reza">
+    <img class="mx-8 w-2/5" src="~/assets/image/rezaportfolio.png" alt="Gambar reza">
   </div>
 </template>
 
