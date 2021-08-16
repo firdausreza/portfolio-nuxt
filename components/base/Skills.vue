@@ -1,6 +1,6 @@
 <template>
   <div class="w-full flex flex-col items-center mx-auto py-16 rounded-xl bg-dlblue">
-    <div class="heading-wrapper text-center flex flex-col justify-center items-center">
+    <div class="heading-wrapper text-center flex flex-col justify-center items-center px-8">
       <h1 class="text-5xl font-bold">
         My Skills
       </h1>
@@ -57,7 +57,7 @@
             Web Apps Testing
           </h3>
           <p class="text-base mt-8">
-            Web Functionality Testing, Blackbox Testing, All test are using Selenium Webdriver
+            Web Functionality Testing, Blackbox Testing, All test process/procedure are using Selenium Webdriver
           </p>
         </div>
       </div>

@@ -37,6 +37,9 @@
       <section id="tools">
         <Tools />
       </section>
+      <section id="portfolio">
+        <Projects />
+      </section>
     </main>
   </div>
 </template>
