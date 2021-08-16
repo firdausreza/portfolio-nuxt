@@ -1,14 +1,14 @@
 <template>
-  <div class="text-white bg-dblue">
+  <div>
     <Header />
     <main>
-      <section id="intro" class="px-8">
+      <section id="intro" class="px-8 sm:px-4">
         <Intro />
       </section>
       <section id="about">
         <About />
       </section>
-      <section id="skills" class="px-8">
+      <section id="skills" class="px-8 sm:px-4">
         <Skills />
       </section>
       <section id="tools">

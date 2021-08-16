@@ -25,6 +25,9 @@ module.exports = {
         300: '300px',
         400: '400px',
         500: '500px'
+      },
+      screens: {
+        sm: { max: '767px' }
       }
     }
   },

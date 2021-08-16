@@ -10,9 +10,9 @@
       <hr class="w-16 border-2 border-lred mt-8">
     </div>
 
-    <div class="about-wrapper flex flex-row justify-center items-center mt-8">
-      <img class="mx-8 w-1/4" src="~/assets/image/reza2-nobg.png" alt="Gambar reza 2">
-      <div class="w-1/2 wrapper flex flex-col justify-start mx-8 px-8">
+    <div class="about-wrapper flex sm:flex-col flex-row justify-center items-center mt-8">
+      <img class="mx-8 sm:w-1/2 w-1/4" src="~/assets/image/reza2-nobg.png" alt="Gambar reza 2">
+      <div class="sm:w-full w-1/2 wrapper flex flex-col justify-start sm:mt-8 mx-8 px-8">
         <h3 class="text-2xl font-bold">
           Hi There
         </h3>

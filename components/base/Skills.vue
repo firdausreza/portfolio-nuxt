@@ -1,6 +1,6 @@
 <template>
   <div class="w-full flex flex-col items-center mx-auto py-16 rounded-xl bg-dlblue">
-    <div class="heading-wrapper flex flex-col justify-center items-center">
+    <div class="heading-wrapper text-center flex flex-col justify-center items-center">
       <h1 class="text-5xl font-bold">
         My Skills
       </h1>
@@ -11,8 +11,8 @@
     </div>
 
     <div class="sm:w-full md:w-3/4 skill-wrapper p-8 mt-8">
-      <div class="w-full flex flex-row justify-center items-center">
-        <div class="w-1/4 h-full wrapper flex flex-col justify-start mx-8 p-8 bg-dblue rounded-2xl">
+      <div class="w-full flex sm:flex-col flex-row justify-center items-center">
+        <div class="sm:w-full w-1/4 h-full wrapper flex flex-col justify-start mx-8 p-8 bg-dblue rounded-2xl">
           <font-awesome-icon :icon="['fas', 'laptop-code']" style="font-size: 48px; color: #FF4A4A" />
           <h3 class="text-2xl font-bold mt-8">
             Web Development
@@ -21,7 +21,7 @@
             Front-end Web Development, Back-end Web Development, Wordpress. Web development are my main interest
           </p>
         </div>
-        <div class="w-1/4 h-full wrapper flex flex-col justify-start mx-8 p-8 bg-dblue rounded-2xl">
+        <div class="sm:w-full w-1/4 h-full wrapper flex flex-col justify-start sm:mt-8 mx-8 p-8 bg-dblue rounded-2xl">
           <font-awesome-icon :icon="['fab', 'figma']" style="font-size: 48px; color: #FF4A4A" />
           <h3 class="text-2xl font-bold mt-8">
             UI/UX Design
@@ -30,7 +30,7 @@
             Web UI Design, Mobile UX Design, UX Research, Mostly using Figma for wireframing and building mockups
           </p>
         </div>
-        <div class="w-1/4 h-full wrapper flex flex-col justify-start mx-8 p-8 bg-dblue rounded-2xl">
+        <div class="sm:w-full w-1/4 h-full wrapper flex flex-col justify-start sm:mt-8 mx-8 p-8 bg-dblue rounded-2xl">
           <font-awesome-icon :icon="['fas', 'mobile-alt']" style="font-size: 48px; color: #FF4A4A" />
           <h3 class="text-2xl font-bold mt-8">
             Mobile Development
@@ -41,8 +41,8 @@
         </div>
       </div>
 
-      <div class="w-full flex flex-row justify-center items-center mt-8">
-        <div class="w-1/4 h-full wrapper flex flex-col justify-start mx-8 p-8 bg-dblue rounded-2xl">
+      <div class="w-full flex sm:flex-col flex-row justify-center items-center mt-8">
+        <div class="sm:w-full w-1/4 h-full wrapper flex flex-col justify-start mx-8 p-8 bg-dblue rounded-2xl">
           <font-awesome-icon :icon="['fas', 'gamepad']" style="font-size: 48px; color: #FF4A4A" />
           <h3 class="text-2xl font-bold mt-8">
             Game Development
@@ -51,7 +51,7 @@
             Unity Development, Game Design, 2D Character Design, Most of development are using Unity.
           </p>
         </div>
-        <div class="w-1/4 h-full wrapper flex flex-col justify-start mx-8 p-8 bg-dblue rounded-2xl">
+        <div class="sm:w-full w-1/4 h-full wrapper flex flex-col justify-start sm:mt-8 mx-8 p-8 bg-dblue rounded-2xl">
           <font-awesome-icon :icon="['fas', 'tools']" style="font-size: 48px; color: #FF4A4A" />
           <h3 class="text-2xl font-bold mt-8">
             Web Apps Testing

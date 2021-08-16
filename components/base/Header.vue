@@ -4,7 +4,7 @@
       <h1 class="text-5xl font-bold">
         Reza Firdaus
       </h1>
-      <div class="flex sm:flex-col md:flex-row justify-center items-center mt-8">
+      <div class="flex flex-row justify-center items-center mt-8">
         <a href="#" class="hover:text-lred">
           About
         </a>
