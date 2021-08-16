@@ -11,6 +11,9 @@
       <section id="skills">
         <Skills />
       </section>
+      <section id="tools">
+        <Tools />
+      </section>
     </main>
   </div>
 </template>
