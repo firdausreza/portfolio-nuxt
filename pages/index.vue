@@ -3,7 +3,7 @@
     <header class="sticky top-0 z-50 ">
       <nav class="w-full flex flex-col justify-center items-center mx-auto py-8 bg-dblue">
         <h1 class="text-5xl font-bold">
-          Reza Firdaus
+          Welcome!
         </h1>
         <div class="flex flex-row justify-center items-center mt-8">
           <nuxt-link :to="{ path: '/', hash:'#about'}" class="hover:text-lred">
