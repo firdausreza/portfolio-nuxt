@@ -9,7 +9,7 @@
         Here are the tools that i have mastered/familiar with while working on my several projects at college
       </p>
     </div>
-    <img class="mx-8 sm:mt-8 sm:w-400 sm:h-400 w-500 h-500" src="~/assets/image/Tools.png" alt="">
+    <img class="mx-8 sm:mt-8 sm:w-400 sm:h-400 w-500 h-500" src="~/assets/image/tools.svg" alt="">
   </div>
 </template>
 

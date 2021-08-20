@@ -19,7 +19,7 @@
         I'm highly interested in Front-end Web Development, but also experienced in Back-end Development and Game Development
       </p>
     </div>
-    <img class="mx-8 sm:w-full md:w-1/2" src="~/assets/image/rezaportfolio.png" alt="Gambar reza">
+    <img class="mx-8 sm:w-full w-1/4" src="~/assets/image/reza2-nobg.png" alt="Gambar reza">
   </div>
 </template>
 

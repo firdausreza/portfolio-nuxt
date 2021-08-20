@@ -16,6 +16,9 @@
       <p class="text-base font-bold text-justify mt-8">
         <span class="font-bold">Build With :</span> {{ project.build }}
       </p>
+      <a v-if="project.link !== ''" :href="project.link" class="text-red-400 underline mt-8" target="_blank">
+        Demo Link
+      </a>
     </div>
   </div>
 </template>

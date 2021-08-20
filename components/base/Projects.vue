@@ -1,6 +1,6 @@
 <template>
-  <div class="w-full flex flex-col mx-auto px-8 py-16 bg-dlblue">
-    <div class="heading-wrapper flex flex-col justify-center items-center">
+  <div class="w-full flex flex-col items-center mx-auto px-16 pt-8 rounded-xl bg-dlblue">
+    <div class="heading-wrapper text-center flex flex-col justify-center items-center px-8">
       <h1 class="text-5xl font-bold">
         Portfolio Showcase
       </h1>
@@ -9,7 +9,10 @@
       </p>
       <hr class="w-16 border-2 border-lred mt-8">
     </div>
-    <Showcase v-for="project in projects" :key="project.id" :project="project" />
+
+    <div class="w-full skill-wrapper p-8">
+      <Showcase v-for="project in projects" :key="project.id" :project="project" />
+    </div>
   </div>
 </template>
 

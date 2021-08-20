@@ -15,10 +15,10 @@
           <nuxt-link :to="{ path: '/', hash:'#tools'}" class="ml-8 hover:text-lred">
             Tools
           </nuxt-link>
-          <nuxt-link :to="{ path: '/', hash:'#about'}" class="ml-8 hover:text-lred">
+          <nuxt-link :to="{ path: '/', hash:'#portfolio'}" class="ml-8 hover:text-lred">
             Projects
           </nuxt-link>
-          <nuxt-link :to="{ path: '/', hash:'#about'}" class="ml-8 hover:text-lred">
+          <nuxt-link :to="{ path: '/', hash:'#contact'}" class="ml-8 hover:text-lred">
             Contact
           </nuxt-link>
         </div>
@@ -39,6 +39,9 @@
       </section>
       <section id="portfolio">
         <Projects />
+      </section>
+      <section id="contact">
+        <Contact />
       </section>
     </main>
   </div>
