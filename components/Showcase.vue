@@ -1,5 +1,5 @@
 <template>
-  <div :class="`w-full flex sm:flex-col ${project.reverse ? 'flex-row-reverse' : 'flex-row'} items-center mt-8 p-8`">
+  <div :class="`w-full flex sm:flex-col ${project.reverse ? 'flex-row-reverse' : 'flex-row'} items-center mt-8 sm:p-2 md:p-8`">
     <VueSlickCarousel ref="carousel" class="sm:w-full h-full w-2/5 mx-8 rounded-lg" v-bind="settings">
       <img v-for="image in project.images" :key="image" :src="require(`~/assets/image/${image}`)" alt="project image">
     </VueSlickCarousel>
