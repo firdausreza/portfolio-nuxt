@@ -1,7 +1,7 @@
 <template>
   <div>
     <header class="sticky top-0 z-50 ">
-      <nav class="w-full flex flex-col justify-center items-center mx-auto py-8 bg-dblue">
+      <nav class="w-full flex flex-col justify-center items-center mx-auto py-8 sm:p-8 bg-dblue">
         <h1 class="text-5xl font-bold">
           Welcome!
         </h1>

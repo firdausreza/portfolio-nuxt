@@ -10,7 +10,7 @@
       <hr class="w-16 border-2 border-lred mt-8">
     </div>
 
-    <div class="w-full skill-wrapper p-8">
+    <div class="w-full skill-wrapper md:p-8">
       <Showcase v-for="project in projects" :key="project.id" :project="project" />
     </div>
   </div>
