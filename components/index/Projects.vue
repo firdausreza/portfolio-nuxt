@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full flex flex-col items-center mx-auto px-16 pt-8 rounded-xl bg-dlblue">
+  <div class="max-w-7xl flex flex-col items-center mx-auto p-16 rounded-xl bg-dlblue">
     <div class="heading-wrapper text-center flex flex-col justify-center items-center px-8">
       <h1 class="text-5xl font-bold">
         Portfolio Showcase
@@ -17,6 +17,7 @@
 </template>
 
 <script>
+import Showcase from "~/components/base/Showcase";
 import { mapGetters } from 'vuex'
 
 export default {
