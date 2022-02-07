@@ -1,72 +1,22 @@
 <template>
-  <div class="max-w-7xl flex flex-col items-center mx-auto py-16 rounded-xl bg-dlblue">
-    <div class="heading-wrapper text-center flex flex-col justify-center items-center px-8">
-      <h1 class="text-5xl font-bold">
-        My Skills
-      </h1>
-      <p class="text-base mt-8">
-        I have learned many skills during my studies, some of them are listed below!
-      </p>
-      <hr class="w-16 border-2 border-lred mt-8">
-    </div>
-
-    <div class="sm:w-full md:w-3/4 skill-wrapper p-8 mt-8">
-      <div class="w-full flex sm:flex-col flex-row justify-center items-center">
-        <div class="sm:w-full w-1/4 h-full wrapper flex flex-col justify-start mx-8 p-8 bg-dblue rounded-2xl">
-          <font-awesome-icon :icon="['fas', 'laptop-code']" style="font-size: 48px; color: #FF4A4A" />
-          <h3 class="text-2xl font-bold mt-8">
-            Web Development
-          </h3>
-          <p class="text-base mt-8">
-            Front-end Web Development, Back-end Web Development, Wordpress. Web development are my main interest
-          </p>
-        </div>
-        <div class="sm:w-full w-1/4 h-full wrapper flex flex-col justify-start sm:mt-8 mx-8 p-8 bg-dblue rounded-2xl">
-          <font-awesome-icon :icon="['fab', 'figma']" style="font-size: 48px; color: #FF4A4A" />
-          <h3 class="text-2xl font-bold mt-8">
-            UI/UX Design
-          </h3>
-          <p class="text-base mt-8">
-            Web UI Design, Mobile UX Design, UX Research, Mostly using Figma for wireframing and building mockups
-          </p>
-        </div>
-        <div class="sm:w-full w-1/4 h-full wrapper flex flex-col justify-start sm:mt-8 mx-8 p-8 bg-dblue rounded-2xl">
-          <font-awesome-icon :icon="['fas', 'mobile-alt']" style="font-size: 48px; color: #FF4A4A" />
-          <h3 class="text-2xl font-bold mt-8">
-            Mobile Development
-          </h3>
-          <p class="text-base mt-8">
-            Front-end Mobile Development, Back-end Mobile Development, All the development tools are using Android Studio
-          </p>
-        </div>
+  <section class="max-w-7xl flex sm:flex-col items-center justify-between mx-auto rounded-xl p-12">
+    <img class="mx-8 w-[450px] sm:order-1 order-2" src="~/assets/image/illustrations/skills.svg" alt="skills image">
+    <article class="sm:w-full w-1/2 sm:mt-4 sm:px-0 p-8 flex flex-col items-start order-1 sm:order-2">
+      <div class="flex items-center">
+        <hr class="w-8 border border-lred">
+        <h1 class="ml-4 text-sm text-lred font-normal">
+          What I do
+        </h1>
       </div>
-
-      <div class="w-full flex sm:flex-col flex-row justify-center items-center mt-8">
-        <div class="sm:w-full w-1/4 h-full wrapper flex flex-col justify-start mx-8 p-8 bg-dblue rounded-2xl">
-          <font-awesome-icon :icon="['fas', 'gamepad']" style="font-size: 48px; color: #FF4A4A" />
-          <h3 class="text-2xl font-bold mt-8">
-            Game Development
-          </h3>
-          <p class="text-base mt-8">
-            Unity Development, Game Design, 2D Character Design, Most of development are using Unity.
-          </p>
-        </div>
-        <div class="sm:w-full w-1/4 h-full wrapper flex flex-col justify-start sm:mt-8 mx-8 p-8 bg-dblue rounded-2xl">
-          <font-awesome-icon :icon="['fas', 'tools']" style="font-size: 48px; color: #FF4A4A" />
-          <h3 class="text-2xl font-bold mt-8">
-            Web Apps Testing
-          </h3>
-          <p class="text-base mt-8">
-            Web Functionality Testing, Blackbox Testing, All test process/procedure are using Selenium Webdriver
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
+      <section class="mt-4">
+        <h1 class="text-2xl font-bold">
+          Web and Front-end Development!
+        </h1>
+        <p class="text-base text-justify mt-8">
+          As I said before, I'm highly interested in Web Development and Front-end Web Development. But I can do basic Back-end Development
+          and Game Development, and basic experience while in college.
+        </p>
+      </section>
+    </article>
+  </section>
 </template>
-
-<script>
-export default {
-
-}
-</script>

@@ -1,6 +1,6 @@
 <template>
-  <section class="flex max-w-7xl sm:flex-col md:flex-row justify-center items-center mx-auto px-8 sm:px-4 pt-8 rounded-xl bg-dlblue">
-    <article class="wrapper sm:w-full md:w-1/2 sm:items-start flex flex-col justify-start mx-8 sm:px-4 py-8">
+  <section class="flex max-w-7xl sm:flex-col md:flex-row justify-between items-center mx-auto sm:px-4 px-12 rounded-xl">
+    <article class="wrapper sm:w-full md:w-1/2 sm:items-start flex flex-col justify-start p-8">
       <section class="icon-wrapper flex flex-row">
         <a href="https://github.com/firdausreza" target="_blank">
           <font-awesome-icon :icon="['fab', 'github']" style="font-size: 48px" />

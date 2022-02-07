@@ -1,4 +1,5 @@
 module.exports = {
+  mode: 'jit',
   purge: [
     './components/**/*.{vue,js}',
     './layouts/**/*.vue',
@@ -27,7 +28,8 @@ module.exports = {
         500: '500px'
       },
       screens: {
-        sm: { max: '767px' }
+        sm: { max: '767px' },
+        cxs: { max: '425px' }
       }
     }
   },
