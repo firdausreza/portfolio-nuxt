@@ -1,26 +1,20 @@
 <template>
-  <div :class="`w-full flex sm:flex-col ${project.reverse ? 'flex-row-reverse' : 'flex-row'} items-center mt-8 sm:p-2 md:p-8`">
-    <VueSlickCarousel ref="carousel" class="sm:w-full h-full w-2/5 mx-8 rounded-lg" v-bind="settings">
-      <img v-for="image in project.images" :key="image" :src="require(`~/assets/image/${image}`)" alt="project image">
-    </VueSlickCarousel>
-    <div class="text-wrapper w-1/2 sm:w-full flex flex-col mx-8 justify-start sm:mt-8">
-      <h3 class="text-2xl font-bold">
+  <article class="w-auto flex flex-col items-center">
+    <section class="w-full h-auto">
+      <img :src="require(`~/assets/image/projects/${project.image}`)" alt="project image" class="w-full h-full rounded-t-2xl">
+    </section>
+    <section class="w-full flex-1 p-4 rounded-b-2xl bg-dblue">
+      <section class="w-full flex flex-wrap">
+        <span v-for="tech in project.build" :key="tech" class="py-1.5 px-2 rounded-xl bg-lred text-white text-[12px] mt-2 mr-2">{{ tech }}</span>
+      </section>
+      <h1 class="text-xl font-bold mt-2">
         {{ project.title }}
-      </h3>
-      <p class="text-base text-justify mt-8">
-        {{ project.desc }}
-      </p>
-      <p class="text-base text-justify mt-8">
-        <span class="font-bold">Category :</span> {{ project.category }}
-      </p>
-      <p class="text-base font-bold text-justify mt-8">
-        <span class="font-bold">Build With :</span> {{ project.build }}
-      </p>
+      </h1>
       <a v-if="project.link !== ''" :href="project.link" class="text-red-400 underline mt-8" target="_blank">
-        Demo Link
+        Link
       </a>
-    </div>
-  </div>
+    </section>
+  </article>
 </template>
 
 <script>
