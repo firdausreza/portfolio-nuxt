@@ -10,7 +10,7 @@
       <hr class="w-16 border-2 border-lred mt-8">
     </div>
 
-    <div class="w-full grid grid-cols-3 sm:grid-cols-2 cxs:grid-cols-1 gap-8 mt-12">
+    <div class="w-full grid grid-cols-3 sm:grid-cols-2 ssm:grid-cols-1 gap-8 mt-12">
       <Showcase v-for="project in projects" :key="project.id" :project="project" />
     </div>
   </div>

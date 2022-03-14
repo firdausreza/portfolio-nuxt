@@ -14,7 +14,7 @@
         </h1>
         <p class="text-base text-justify mt-8">
           As I said before, I'm highly interested in Web Development and Front-end Web Development. But I can do basic Back-end Development
-          and Game Development, and basic experience while in college.
+          and Game Development with basic experience while in college.
         </p>
       </section>
     </article>
