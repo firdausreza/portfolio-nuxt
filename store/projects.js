@@ -17,13 +17,6 @@ export const state = () => ({
     },
     {
       id: 3,
-      title: 'Bingung Berbagi',
-      link: 'https://qitadev.github.io/bingung-berbagi/',
-      image: 'bingungberbagi.png',
-      build: ['VueJS', 'NuxtJS']
-    },
-    {
-      id: 4,
       title: 'JALA Web Apps',
       link: 'https://app.jala.tech/',
       image: 'jala.png',
